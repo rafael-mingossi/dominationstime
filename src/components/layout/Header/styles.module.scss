@@ -1,0 +1,8 @@
+.container {
+  width: 100%;
+  height: pixelToVH(150);
+  max-height: 150px;
+  @include flex-x-y-d(center, center, row);
+  background-color: green;
+  position: fixed;
+}

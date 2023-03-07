@@ -1,40 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3323b51d-d46b-4dde-88a6-9b44f08b8c6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/domi-time.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Hagin-Caps-Med.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/ff-free.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/ff-hevReg.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/rt-black.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/rt-bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/rt-extraB.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/rt-light.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/rt-reg.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/styles/base/__media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/styles/base/__variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/styles/base/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/styles/base/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/styles/base/resources.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/styles/global/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/styles/global/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/styles/global/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="3323b51d-d46b-4dde-88a6-9b44f08b8c6d" name="Changes" comment="initial set up">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/CustomHead/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Footer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Footer/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Header/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Header/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Layout/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Layout/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/styles/global/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tools/styles/global/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,8 +47,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "prettierjs.PrettierConfiguration.Package": "/Users/rafael/WebstormProjects/customer-web-frontEnd/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/rafael/Documents/domi-time/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,8 +64,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678155538482</updated>
-      <workItem from="1678155539617" duration="2576000" />
+      <workItem from="1678155539617" duration="2629000" />
+      <workItem from="1678171611086" duration="5686000" />
     </task>
+    <task id="LOCAL-00001" summary="initial set up">
+      <created>1678158147894</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678158147894</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial set up" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial set up" />
   </component>
 </project>
