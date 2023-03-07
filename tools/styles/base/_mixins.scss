@@ -1,0 +1,116 @@
+// Flex
+@mixin flex-x-y-d($vertical, $horizontal, $direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $vertical;
+  align-items: $horizontal;
+}
+
+//Button Structure
+@mixin standardBtnStructure {
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.4s;
+  min-width: fit-content;
+  border-radius: 50px;
+  letter-spacing: 0.3px;
+  @include doubleValPadding(11, 22);
+  @include flex-x-y-d(center, center, row);
+}
+
+//Make highlight text unable
+@mixin unable-highlight-text() {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Oper*/
+}
+
+//Font Clamp for responsiveness
+@mixin font-lineH-13 {
+  font-size: clamp(0.6rem, 0.667vw, 0.813rem);
+  line-height: clamp(0.8rem, 0.833vw, 1rem);
+}
+
+@mixin font-lineH-16 {
+  font-size: clamp(0.9rem, 0.833vw, 1rem);
+  line-height: clamp(1rem, 0.833vw, 1.18rem);
+}
+
+@mixin font-lineH-23 {
+  font-size: clamp(0.6rem, 1.198vw, 1.438rem);
+  line-height: clamp(0.7rem, 1.563vw, 1.875rem);
+}
+
+@mixin font-lineH-28 {
+  font-size: clamp(1.563rem, 1.458vw, 1.75rem);
+  line-height: clamp(0.7rem, 1.458vw, 1.75rem);
+}
+
+@mixin font-lineH-40 {
+  font-size: clamp(1.563rem, 2.083vw, 2.5rem);
+  line-height: clamp(1.6rem, 1.979vw, 2.375rem);
+}
+
+@mixin font-lineH-48 {
+  font-size: clamp(2.063rem, 2.5vw, 3rem);
+  line-height: clamp(2.063rem, 2.5vw, 3rem);
+}
+
+@mixin font-lineH-69 {
+  font-size: clamp(2.063rem, 3.594vw, 4.313rem);
+  line-height: clamp(2.1rem, 3.49vw, 4.188rem);
+}
+
+@mixin font-lineH-96 {
+  font-size: clamp(3rem, 5vw, 6rem);
+  line-height: clamp(2.75rem, 4.583vw, 5.5rem);
+}
+
+// Hide Scroll Bar
+@mixin hide-scrollbar() {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+}
+
+// Black Line
+@mixin line {
+  border: 1px solid $black;
+  width: 100%;
+}
+
+// function
+@function pixelToVW($pixel) {
+  $result: $pixel;
+  $result: $pixel / 19.2; // figma file designed for 1920px which is 19.2 equal 1vw
+  @return #{$result}vw;
+}
+
+@function pixelToVH($pixel) {
+  $result: $pixel;
+  $result: $pixel / 10.8; // figma file designed for 1080px which is 10.8 equal 1vh
+  @return #{$result}vh;
+}
+
+//Handle responsive paddings
+@mixin doubleValPadding($val1, $val2) {
+  padding: pixelToVH($val1) pixelToVW($val2);
+
+  @include media-up(layout-bp) {
+    padding: #{$val1}px #{$val2}px;
+  }
+}
+
+@mixin fullValPadding($val1, $val2, $val3, $val4) {
+  padding: pixelToVH($val1) pixelToVW($val2) pixelToVH($val3) pixelToVW($val4);
+
+  @include media-up(layout-bp) {
+    padding: #{$val1}px #{$val2}px #{$val3}px #{$val4}px;
+  }
+}
