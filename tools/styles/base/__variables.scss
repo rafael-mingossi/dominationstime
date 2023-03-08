@@ -1,85 +1,15 @@
 /*=============================================>>>>>
-= Body font colour =
+= Colour =
 ===============================================>>>>>*/
 
-/*=============================================>>>>>
-= Brand colours =
-===============================================>>>>>*/
-$atelier-blue: #0069f1;
-$primary: $atelier-blue;
+$darkOrange: #f09a26;
+$lightOrange: #f0ac4b;
 
-$atelier-purple: #7116db;
-$green: #7cc369;
-$orange: #fbb04b;
-$red: #ec5a24;
-$yellow: #fedd00;
-$white: #ffffff;
+$darkGray: #123651;
+$lightGray: #e5eaf0;
+
+$darkBlue: #0f1e29;
+$lightBlue: #285080;
+
 $black: #000000;
-$off-white: #f5f5f5;
-$off-black: #333333;
-$lightGray: #f2f2f2;
-$lightBlue: #e4f0ff;
-$lightYellow: #faf1e04d;
-$greyText: #707070;
-$bubbleGray: #d4d4d4;
-$darkOrangeCard: #fbb04b;
-$lightOrangeCard: #fff7ed;
-
-/*=============================================>>>>>
-= Performance color
-===============================================>>>>>*/
-$performanceRed: #f79e80;
-$performanceRedBorder: #f79e80;
-$performanceOrange: #fdd093;
-$performanceOrangeBorder: #fdd093;
-$performanceGreen: #b0dba5;
-$performanceGreenBorder: #b0dba5;
-$performanceYellow: #fdeeab;
-$performanceYellowBorder: #fdeeab;
-$performancePurple: #cba1ec;
-$performancePurpleBorder: #cba1ec;
-$performanceGray: #d4d4d4;
-$performanceGrayBorder: #d4d4d4;
-
-/*=============================================>>>>>
-= Sampling badge color
-===============================================>>>>>*/
-$submitted: #aed1ff;
-$feedback: #fdeeab;
-$shipped: #d8b9f1;
-$delayed: #f79e80;
-$approved: #b0dba5;
-$missing: #d4d4d4;
-
-/*=============================================>>>>>
-= Border color
-===============================================>>>>>*/
-$border-gray: #b2b2b2;
-$border: #d8e5ee;
-$border-disabled: #bfbfbf;
-$grayBackground: #f6f6f6;
-$greenBackground: #f2f9f0;
-
-/*=============================================>>>>>
-= User notification colours
-===============================================>>>>>*/
-$success: #5cb85c;
-$warning: #f0ad4e;
-$error: #d9534f;
-$manufacturing: #fa6b14;
-$quality: #c7e800;
-$new-prod: #deab2b;
-
-/*=============================================>>>>>
-= Fonts
-===============================================>>>>>*/
-//$main-font-newsCycle: 'News Cycle', sans-serif;
-//$secondary-font-aktiv: 'Aktiv Grotesk Extended', sans-serif;
-//$garamond: 'ITC Garamond Std Light Condensed';
-
-/*==============================
-= default sizes
-/*============================ */
-// screen size - 109px (nav bar) - 20px margin bottom - 6px borders
-$contentMaxHeight: calc(100vh - 135px);
-$contentMaxHeightUp: calc(1080px - 135px);
+$white: #ffffff;

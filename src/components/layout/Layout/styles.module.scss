@@ -1,16 +1,24 @@
 .container {
   height: 100vh;
   //max-height: 1080px; testing without height limits, maybe put it back in case design request
-  width: 100vw;
   max-width: 1920px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100%, 1920px));
-  justify-content: space-between;
+  align-items: space-between;
+  overflow: auto;
 
   @include hide-scrollbar;
   position: relative;
 
   @include media-down(mobile) {
     padding: 0;
+  }
+
+  .child {
+    margin-top: pixelToVH(200);
+
+    @include media-up(layout-bp) {
+      margin-top: 200px;
+    }
   }
 }
