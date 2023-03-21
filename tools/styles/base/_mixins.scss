@@ -30,42 +30,58 @@
 
 //Font Clamp for responsiveness
 @mixin font-lineH-13 {
-  font-size: clamp(0.6rem, 0.667vw, 0.813rem);
-  line-height: clamp(0.8rem, 0.833vw, 1rem);
+  //SS:13 AS:13 LS:13 ->> Smallest Size, Actual Size, Largest Size
+  font-size: clamp(0.813rem, 0.667vw, 0.813rem);
+  //SS:16 AS:16 LS:16
+  line-height: clamp(1rem, 0.833vw, 1rem);
 }
 
 @mixin font-lineH-16 {
-  font-size: clamp(0.9rem, 0.833vw, 1rem);
-  line-height: clamp(1rem, 0.833vw, 1.18rem);
+  //SS:16 AS:16 LS:16
+  font-size: clamp(1rem, 0.833vw, 1rem);
+  //SS:16 AS:16 LS:16
+  line-height: clamp(1rem, 0.833vw, 1rem);
 }
 
 @mixin font-lineH-23 {
-  font-size: clamp(0.6rem, 1.198vw, 1.438rem);
-  line-height: clamp(0.7rem, 1.563vw, 1.875rem);
+  //SS:16 AS:23 LS:23
+  font-size: clamp(1rem, 1.198vw, 1.438rem);
+  //SS:19 AS:30 LS:30
+  line-height: clamp(1.188rem, 1.563vw, 1.875rem);
 }
 
 @mixin font-lineH-28 {
-  font-size: clamp(1.563rem, 1.458vw, 1.75rem);
-  line-height: clamp(0.7rem, 1.458vw, 1.75rem);
+  //SS:16 AS:28 LS:28
+  font-size: clamp(1rem, 1.458vw, 1.75rem);
+  //SS:16 AS:28 LS:28
+  line-height: clamp(1rem, 1.458vw, 1.75rem);
 }
 
 @mixin font-lineH-40 {
+  //SS:25 AS:40 LS:40
   font-size: clamp(1.563rem, 2.083vw, 2.5rem);
-  line-height: clamp(1.6rem, 1.979vw, 2.375rem);
+  //SS:27 AS:38 LS:38
+  line-height: clamp(1.688rem, 1.979vw, 2.375rem);
 }
 
 @mixin font-lineH-48 {
-  font-size: clamp(2.063rem, 2.5vw, 3rem);
-  line-height: clamp(2.063rem, 2.5vw, 3rem);
+  //SS:35 AS:48 LS:48
+  font-size: clamp(2.188rem, 2.5vw, 3rem);
+  //SS:33 AS:46 LS:46
+  line-height: clamp(2.063rem, 2.396vw, 2.875rem);
 }
 
 @mixin font-lineH-69 {
+  //SS:33 AS:69 LS:69
   font-size: clamp(2.063rem, 3.594vw, 4.313rem);
-  line-height: clamp(2.1rem, 3.49vw, 4.188rem);
+  //SS:33 AS:67 LS:67
+  line-height: clamp(2.063rem, 3.49vw, 4.188rem);
 }
 
 @mixin font-lineH-96 {
+  //SS:48 AS:96 LS:96
   font-size: clamp(3rem, 5vw, 6rem);
+  //SS:44 AS:88 LS:88
   line-height: clamp(2.75rem, 4.583vw, 5.5rem);
 }
 

@@ -1,26 +1,50 @@
 //FONT FAT FRANK
 @mixin FatFrank16() {
-  font-family: 'GTAmerica-CondensedLight';
-  @include font-lineH-16;
+  font-family: "Fat Frank Heavy Reg";
+  @include font-lineH-23;
   letter-spacing: 0.3px;
-  font-weight: 300;
 }
 
-
-//FONT REAL TEXT
-@mixin GtAmerica_LightCondensed16() {
-  font-family: 'GTAmerica-CondensedLight';
+//REAL TEXT
+@mixin RealTextLight16 {
+  font-family: "Real Text Light";
   @include font-lineH-16;
   letter-spacing: 0.3px;
-  font-weight: 300;
+}
+
+@mixin RealTextReg16 {
+  font-family: "Real Text Regular";
+  @include font-lineH-16;
+  letter-spacing: 0.3px;
+}
+
+@mixin RealTextBold16 {
+  font-family: "Real Text Bold";
+  @include font-lineH-16;
+  letter-spacing: 0.3px;
 }
 
 //HAGIN CAPS TEXT
-@mixin HC() {
-  font-family: 'HaginCaps Medium';
-  //@include font-lineH-16;
-  letter-spacing: 0.3px;
-  font-weight: 300;
-  font-size: 20px;
+@mixin HC23() {
+  font-family: "HaginCaps Medium";
+  @include font-lineH-28;
+  letter-spacing: 0.5px;
 }
 
+@mixin HC48() {
+  font-family: "HaginCaps Medium";
+  @include font-lineH-48;
+  letter-spacing: 0.5px;
+}
+
+@mixin HC69() {
+  font-family: "HaginCaps Medium";
+  @include font-lineH-69;
+  letter-spacing: 0.5px;
+}
+
+@mixin HC96() {
+  font-family: "HaginCaps Medium";
+  @include font-lineH-96;
+  letter-spacing: 0.5px;
+}

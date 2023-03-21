@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3323b51d-d46b-4dde-88a6-9b44f08b8c6d" name="Changes" comment="layout">
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Banner/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Banner/styles.module.scss" afterDir="false" />
+    <list default="true" id="3323b51d-d46b-4dde-88a6-9b44f08b8c6d" name="Changes" comment="layout header">
+      <change afterPath="$PROJECT_DIR$/tools/hooks/useScroll.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/hooks/useScrollPosition.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/CustomHead/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CustomHead/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Footer/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Header/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header/styles.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Layout/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/styles/base/__variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tools/styles/base/__variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/styles/global/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tools/styles/global/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Banner/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Banner/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Banner/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Banner/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/styles/base/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tools/styles/base/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/styles/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tools/styles/base/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,9 @@
       <workItem from="1678155539617" duration="2629000" />
       <workItem from="1678171611086" duration="5748000" />
       <workItem from="1678244095265" duration="70000" />
-      <workItem from="1678254526773" duration="5038000" />
+      <workItem from="1678254526773" duration="9372000" />
+      <workItem from="1678393540913" duration="5634000" />
+      <workItem from="1679299983120" duration="19102000" />
     </task>
     <task id="LOCAL-00001" summary="initial set up">
       <created>1678158147894</created>
@@ -79,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678225104204</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="layout header">
+      <created>1678274666106</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678274666106</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial set up" />
     <MESSAGE value="layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="layout" />
+    <MESSAGE value="layout header" />
+    <option name="LAST_COMMIT_MESSAGE" value="layout header" />
   </component>
 </project>

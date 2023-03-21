@@ -1,6 +1,7 @@
 import styles from "./styles.module.scss";
 import { ReactNode } from "react";
 import { Footer, Header } from "../../../components";
+import img from "/public/bgDomi.jpeg";
 
 interface Props {
   children: ReactNode;

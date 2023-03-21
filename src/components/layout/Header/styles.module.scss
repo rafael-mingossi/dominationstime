@@ -1,27 +1,86 @@
 .container {
   width: 100%;
-  height: pixelToVH(150);
-  max-height: 150px;
+  //height: pixelToVH(150);
+  //max-height: 150px;
   @include flex-x-y-d(center, center, row);
-  box-shadow: 0px 0px 5px 0px #00000033;
 
   .fixed {
     width: 100%;
-    height: pixelToVH(150);
-    max-height: 150px;
-    @include flex-x-y-d(space-between, center, row);
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0.33);
+    //height: pixelToVH(150);
+    //max-height: 150px;
+    @include flex-x-y-d(space-between, center, column);
+    //background-color: rgba(0, 0, 0, 0.33);
+    //@include doubleValPadding(0, 20);
 
-    .logo {
-      width: 200px;
-      height: auto;
+    .img {
+      //margin-bottom: 15px;
+      width: 100%;
+      @include flex-x-y-d(space-evenly, center, row);
+      height: 300px;
+
+      h1 {
+        @include HC69;
+        padding-top: pixelToVH(30);
+        color: $darkOrange;
+
+        @include media-up(layout-bp) {
+          padding-top: 30px;
+        }
+
+        &:before {
+          content: "Domi";
+          color: white;
+        }
+
+        &:after {
+          content: "Time";
+          color: white;
+        }
+      }
+
+      .logo {
+        width: clamp(140px, 10.417vw, 200px);
+        height: auto;
+      }
     }
 
     .links {
-      @include flex-x-y-d(space-between, center, row);
-      width: 40%;
-      @include doubleValPadding(0, 10);
+      @include flex-x-y-d(space-evenly, center, row);
+      //width: calc(100% - 200px);
+      width: 100%;
+      background-color: $darkOrange;
+      @include HC23;
+      position: relative;
+      @include doubleValPadding(20, 0);
+      //transition: all 0.5s ease-in-out;
+    }
+
+    .fix {
+      position: fixed;
+      max-width: 1920px;
+      box-shadow: 0px 0px 5px 0px #00000033;
     }
   }
 }
+
+//.fixed {
+//  width: 100%;
+//  height: pixelToVH(150);
+//  max-height: 150px;
+//  @include flex-x-y-d(space-between, center, row);
+//  position: fixed;
+//  background-color: rgba(0, 0, 0, 0.33);
+//  @include doubleValPadding(0, 20);
+//  box-shadow: 0px 0px 5px 0px #ffffff33;
+//
+//  .logo {
+//    width: clamp(140px, 10.417vw, 200px);
+//    height: auto;
+//  }
+//
+//  .links {
+//    @include flex-x-y-d(space-evenly, center, row);
+//    width: calc(100% - 200px);
+//    @include HC23;
+//  }
+//}

@@ -1,8 +1,15 @@
 import styles from "./styles.module.scss";
+import TotalWar from "../../../../public/covers/total-war.jpeg";
+import Image from "next/future/image";
 
 const Banner = () => {
   return (
     <div className={styles.container}>
+      <Image
+        src={TotalWar}
+        alt="Total War Banner"
+        className={styles.coverImg}
+      />
       <div>
         <p>
           11111 Lorem Ipsum is simply dummy text of the printing and typesetting

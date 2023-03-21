@@ -1,6 +1,5 @@
 .container {
   height: 100vh;
-  //max-height: 1080px; testing without height limits, maybe put it back in case design request
   max-width: 1920px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100%, 1920px));
@@ -15,10 +14,15 @@
   }
 
   .child {
-    margin-top: pixelToVH(200);
+    margin-top: pixelToVH(50);
+    @include doubleValPadding(0, 30);
 
     @include media-up(layout-bp) {
-      margin-top: 200px;
+      margin-top: 50px;
+    }
+
+    @include media-down(mobile) {
+      margin-top: 50px;
     }
   }
 }
