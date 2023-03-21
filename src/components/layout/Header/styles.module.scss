@@ -1,86 +1,76 @@
 .container {
   width: 100%;
-  //height: pixelToVH(150);
-  //max-height: 150px;
   @include flex-x-y-d(center, center, row);
 
   .fixed {
     width: 100%;
-    //height: pixelToVH(150);
-    //max-height: 150px;
     @include flex-x-y-d(space-between, center, column);
-    //background-color: rgba(0, 0, 0, 0.33);
-    //@include doubleValPadding(0, 20);
 
     .img {
       //margin-bottom: 15px;
       width: 100%;
       @include flex-x-y-d(space-evenly, center, row);
-      height: 300px;
 
-      h1 {
-        @include HC69;
-        padding-top: pixelToVH(30);
-        color: $darkOrange;
+      .logoWrapper {
+        position: relative;
 
-        @include media-up(layout-bp) {
-          padding-top: 30px;
+        .logo {
+          width: clamp(290px, 30.417vw, 565px);
+          height: auto;
         }
 
-        &:before {
-          content: "Domi";
-          color: white;
-        }
+        .domi {
+          @include flex-x-y-d(center, center, row);
+          position: absolute;
+          inset: 20px 0px 0px 0px;
 
-        &:after {
-          content: "Time";
-          color: white;
-        }
-      }
+          @include media-up(layout-bp) {
+            top: 25px;
+          }
 
-      .logo {
-        width: clamp(140px, 10.417vw, 200px);
-        height: auto;
+          b {
+            @include font-lineH-72;
+          }
+
+          h1 {
+            @include HC69;
+            padding-top: pixelToVH(30);
+            color: white;
+
+            @include media-up(layout-bp) {
+              padding-top: 30px;
+            }
+
+            &:nth-child(2) {
+              color: $darkOrange;
+            }
+          }
+        }
       }
     }
 
     .links {
       @include flex-x-y-d(space-evenly, center, row);
-      //width: calc(100% - 200px);
       width: 100%;
       background-color: $darkOrange;
       @include HC23;
       position: relative;
-      @include doubleValPadding(20, 0);
-      //transition: all 0.5s ease-in-out;
+
+      p {
+        @include doubleValPadding(22, 20);
+        cursor: pointer;
+
+        &:hover {
+          background: $darkGray;
+          transition: all 0.4s ease-in-out;
+        }
+      }
     }
 
     .fix {
       position: fixed;
       max-width: 1920px;
-      box-shadow: 0px 0px 5px 0px #00000033;
+      //box-shadow: 0px 0px 5px 0px #00000033;
     }
   }
 }
-
-//.fixed {
-//  width: 100%;
-//  height: pixelToVH(150);
-//  max-height: 150px;
-//  @include flex-x-y-d(space-between, center, row);
-//  position: fixed;
-//  background-color: rgba(0, 0, 0, 0.33);
-//  @include doubleValPadding(0, 20);
-//  box-shadow: 0px 0px 5px 0px #ffffff33;
-//
-//  .logo {
-//    width: clamp(140px, 10.417vw, 200px);
-//    height: auto;
-//  }
-//
-//  .links {
-//    @include flex-x-y-d(space-evenly, center, row);
-//    width: calc(100% - 200px);
-//    @include HC23;
-//  }
-//}

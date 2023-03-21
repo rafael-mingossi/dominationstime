@@ -75,7 +75,14 @@
   //SS:33 AS:69 LS:69
   font-size: clamp(2.063rem, 3.594vw, 4.313rem);
   //SS:33 AS:67 LS:67
-  line-height: clamp(2.063rem, 3.49vw, 4.188rem);
+  line-height: clamp(2.063rem, 3.49vw, 4.375rem);
+}
+
+@mixin font-lineH-72 {
+  //SS:36 AS:72 LS:72
+  font-size: clamp(2.25rem, 3.75vw, 4.5rem);
+  //SS:36 AS:70 LS:70
+  line-height: clamp(2.25rem, 3.646vw, 4.188rem);
 }
 
 @mixin font-lineH-96 {

@@ -1,6 +1,6 @@
 import styles from "./styles.module.scss";
 import Image from "next/future/image";
-import Logo from "../../../../public/logos/logo-nobg.png";
+import Logo from "../../../../public/logos/logo-empty.png";
 import { useEffect, useRef, useState } from "react";
 import useIntersected from "../../../../tools/hooks/useScroll";
 import img from "/public/bg/headerBg.png";
@@ -24,16 +24,28 @@ const Header = () => {
     <div className={styles.container}>
       <div className={styles.fixed}>
         <div className={styles.img} style={styling}>
-          {/*<Image*/}
-          {/*  src={Logo}*/}
-          {/*  alt="Logo Dominations"*/}
-          {/*  className={styles.logo}*/}
-          {/*  // style={{*/}
-          {/*  //   width: "15vw",*/}
-          {/*  //   maxWidth: "200px",*/}
-          {/*  // }}*/}
-          {/*/>*/}
-          <h1>Nations</h1>
+          <div className={styles.logoWrapper}>
+            <Image
+              src={Logo}
+              alt="Logo Dominations"
+              className={styles.logo}
+              // style={{
+              //   width: "15vw",
+              //   maxWidth: "200px",
+              // }}
+            />
+            <div className={styles.domi}>
+              <h1>
+                <b>D</b>omi
+              </h1>
+              <h1>
+                <b>N</b>ations&nbsp;
+              </h1>
+              <h1>
+                <b>T</b>ime
+              </h1>
+            </div>
+          </div>
         </div>
         <div ref={ref} />
         <div className={`${styles.links} ${!intersectTop ? styles.fix : ""}`}>
