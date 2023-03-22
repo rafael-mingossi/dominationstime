@@ -57,7 +57,7 @@
       position: relative;
 
       p {
-        @include doubleValPadding(22, 20);
+        @include fullValPadding(23, 20, 20, 20);
         cursor: pointer;
 
         &:hover {

@@ -1,9 +1,52 @@
 .container {
-  height: 100%;
-  margin-top: 20px;
+  height: fit-content;
+  width: 100%;
+  position: relative;
+  //display: grid;
+  //column-gap: 5%;
+  //grid-template-columns: 65% 30%;
+  @include flex-x-y-d(space-between, flex-start, row);
+  @include doubleValPadding(35, 35);
+  background-image: url("/bg/hex-bg-sm.png");
+  background-position: center;
+  background-color: #a28686ff;
+  background-repeat: repeat;
+  background-blend-mode: multiply;
 
-  .coverImg {
-    width: 100%;
-    height: auto;
+  .left {
+    position: relative;
+    width: 65%;
+
+    .coverImg {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .text {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+
+      h1 {
+        @include FatFrank16;
+      }
+
+      p {
+        @include RealTextReg16;
+        margin-top: 15px;
+      }
+    }
+  }
+
+  .right {
+    width: 30%;
+    height: 100%;
+
+    h2 {
+      @include FatFrank16;
+      background: $grayD;
+      @include doubleValPadding(10, 10);
+    }
   }
 }

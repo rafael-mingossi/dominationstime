@@ -14,12 +14,12 @@
   }
 
   .child {
-    margin-top: pixelToVH(50);
-    @include doubleValPadding(0, 30);
+    //margin-top: pixelToVH(50);
+    //@include doubleValPadding(0, 30);
 
-    @include media-up(layout-bp) {
-      margin-top: 50px;
-    }
+    //@include media-up(layout-bp) {
+    //  margin-top: 50px;
+    //}
 
     @include media-down(mobile) {
       margin-top: 50px;

@@ -1,0 +1,22 @@
+.smallCards {
+  @include flex-x-y-d(space-between, center, row);
+  width: 100%;
+  @include doubleValPadding(10, 0);
+
+  .smImg {
+    width: 50%;
+    height: auto;
+  }
+
+  .smallTxt {
+    width: 45%;
+
+    h3 {
+      @include RealTextBold16;
+    }
+
+    p {
+      margin-top: 5px;
+    }
+  }
+}

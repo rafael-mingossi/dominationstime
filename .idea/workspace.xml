@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3323b51d-d46b-4dde-88a6-9b44f08b8c6d" name="Changes" comment="layout header">
+      <change afterPath="$PROJECT_DIR$/public/bg/hex-bg-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bg/hex-bg-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/updates/up-sm1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/updates/update11-7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/SmallCards/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/SmallCards/styles.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Header/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Banner/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Banner/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/Banner/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Banner/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/styles/base/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tools/styles/base/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/styles/base/__variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tools/styles/base/__variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/styles/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tools/styles/base/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +67,9 @@
       <workItem from="1678244095265" duration="70000" />
       <workItem from="1678254526773" duration="9372000" />
       <workItem from="1678393540913" duration="5634000" />
-      <workItem from="1679299983120" duration="23728000" />
+      <workItem from="1679299983120" duration="24114000" />
+      <workItem from="1679381051944" duration="4910000" />
+      <workItem from="1679451406028" duration="6095000" />
     </task>
     <task id="LOCAL-00001" summary="initial set up">
       <created>1678158147894</created>
@@ -87,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679357607155</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="layout header">
+      <created>1679365906031</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679365906031</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
